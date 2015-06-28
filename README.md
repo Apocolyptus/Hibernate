@@ -32,6 +32,7 @@
 7) [Hibernate Annotations] (7_Hibernate Annotations.txt)
 
   • [Java Annotations] (annotations.java)
+  
   • [Annotations XML] (annotations.cfg.xml)
 
 8) [Bidirectional One-To-Many] (8_Bidirectional One-To-Many.txt)
