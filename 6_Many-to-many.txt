@@ -1,1 +1,26 @@
+#Many to Many Design Pattern#
 
+There are some modeling situations that you will find over and over again as you design real databases. We refer to these as
+design patterns. If you understand the concepts behind each one, you will in effect be adding new “tools” to your design toolbox
+that you can use in building the model of an enterprise.
+
+Our sales database represents one of these patterns. So far, we have customers and orders. To finish the pattern, we need
+products to sell. We’ll first describe what the Product class means, and how it is associated with the Order class:
+
+• A product is a specific type of item that we have for sale. Each product has a descriptive name; we distinguish similar
+products by the manufacturer's name and model number. For each product, we need to know its unit list price and how many units
+of this product we have in stock.
+• It is important to understand exactly what this class means: an example product might be named “Blender, Commercial, 1.25 Qt.
+”, manufactured by Hamilton Beach, model number 908. This is a type of product, not an individual boxed blender that is sitting
+on our shelves. The same manufacturer probably has different blender models (909, 918, 919), and there are probably blenders
+that we stock that are made by other companies. Each would be a different instance of this class.
+• Each Order contains one or more Products.” (At least one because it doesn't make sense to place an order for no products).
+• Each Product is contained in zero or more Orders.” (Zero because we might not have sold any of this product yet).
+
+Since the maximum multiplicity in each direction is “many,” this is called a many-to-many association between Orders and
+Products.
+
+Each time an order is placed for a product, we need to know how many units of that product are being ordered and what price we
+are actually selling the product for. (The sale price might vary from the list price by customer discount, special sale, etc.)
+These attributes are a result of the association between the Order and the Product. We show them in an association class that is connected to the association by a dotted line. If there are no attributes that result from a many-to-many association,
+there is no association class
