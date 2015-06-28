@@ -22,5 +22,6 @@ Products.
 
 Each time an order is placed for a product, we need to know how many units of that product are being ordered and what price we
 are actually selling the product for. (The sale price might vary from the list price by customer discount, special sale, etc.)
-These attributes are a result of the association between the Order and the Product. We show them in an association class that is connected to the association by a dotted line. If there are no attributes that result from a many-to-many association,
+These attributes are a result of the association between the Order and the Product. We show them in an association class that
+is connected to the association by a dotted line. If there are no attributes that result from a many-to-many association,
 there is no association class
