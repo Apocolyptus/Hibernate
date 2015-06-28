@@ -1,1 +1,16 @@
+#The Proxy Pattern#
 
+= Control access to the actual object on which the functionality lies
+
+• Provide a surrogate or placeholder for another object to control access to it
+• Add a wrapper and delegation to protect the real component from undue complexity
+• Use an extra level of indirection to support distributed, controlled, or intelligent access
+
+By design a surrogate, or proxy, object that: instantiates the real object the first time the client makes a request of the
+proxy, remembers the identity of this real object, and forwards the instigating request to this real object. Then all subsequent
+requests are simply forwarded directly to the encapsulated real object.
+
+• Adapter provides a different interface to its subject. Proxy provides the same interface. Decorator provides an enhanced
+interface
+• Decorator and Proxy have different purposes but similar structures. Both describe how to provide a level of indirection to
+another object, and the implementations keep a reference to the object to which they forward requests
