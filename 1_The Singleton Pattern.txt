@@ -1,3 +1,5 @@
+#The Singleton Pattern#
+
 	The Hibernate comes in many collections, but we’ll briefly cover the nine individual items that are mentioned in the
 Topic Collections and Resources guide. They are: the Singleton Pattern, the Proxy Pattern, the Factory Pattern, HQL, Many to
 Many, examples and diagrams, declarations and descriptions, Many to One and One to Many relationships and Bi-directional one to
