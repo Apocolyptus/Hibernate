@@ -22,3 +22,6 @@ Factory Methods are routinely specified by an architectural framework, and then 
 • Factory Methods are usually called within Template Methods
 • Prototype doesn't require subclassing, but it does require an Initialize operation. Factory Method requires subclassing, but
 doesn't require Initialize
+
+[Example] (factory.java)
+[Home] (https://raw.githubusercontent.com/Apocolyptus/Hibernate)
