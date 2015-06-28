@@ -1,1 +1,33 @@
+#The Hibernate Query Language#
 
+• 
+• 
+• 
+
+HQL is an object-oriented query language, similar to SQL, but instead of operating on tables and columns, HQL works with
+persistent objects and their properties. It is a superset of the JPQL, the Java Persistence Query Language; a JPQL query is a
+valid HQL query, but not all HQL queries are valid JPQL queries. HQL is a language with its own syntax and grammar. It is
+written as strings, like “from Product p“. your HQL queries are translated by Hibernate into conventional SQL queries; Hibernate
+also provides an API that allows you to directly issue SQL queries as well.
+
+$Update Operation$
+
+UPDATE alters the details of existing objects in the database. In-memory entities, managed or not, will not be updated to
+reflect changes resulting from issuing UPDATE statements.
+
+$Delete Operation$
+
+DELETE removes the details of existing objects from the database. In-memory entities will not be updated to reflect changes
+resulting from DELETE statements. This also means that Hibernate’s cascade rules will not be followed for deletions carried
+out using HQL. However, if you have specified cascading deletes at the database level (either directly or through Hibernate,
+using the @OnDelete annotation), the database will still remove the child rows.
+
+$Insert Operation$
+
+An HQL INSERT cannot be used to directly insert arbitrary entities—it can only be used to insert entities constructed from
+information obtained from SELECT queries (unlike ordinary SQL, in which an INSERT command can be used to insert arbitrary data
+into a table, as well as insert values selected from other tables).
+
+$Select Operation$
+
+An HQL SELECT is used to query the database for classes and their properties
