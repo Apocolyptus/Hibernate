@@ -1,4 +1,3 @@
-
 #The Factory Method Pattern#
 
 • Defining a "virtual" constructor
@@ -21,4 +20,4 @@ Factory Methods are routinely specified by an architectural framework, and then 
 • Abstract Factory classes are often implemented with Factory Methods, but they can be implemented using Prototype
 • Factory Methods are usually called within Template Methods
 • Prototype doesn't require subclassing, but it does require an Initialize operation. Factory Method requires subclassing, but
-doesn't require Initialize
+doesn't require Initialize.
