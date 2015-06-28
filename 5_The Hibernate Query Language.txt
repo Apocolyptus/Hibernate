@@ -1,9 +1,5 @@
 #The Hibernate Query Language#
 
-• 
-• 
-• 
-
 HQL is an object-oriented query language, similar to SQL, but instead of operating on tables and columns, HQL works with
 persistent objects and their properties. It is a superset of the JPQL, the Java Persistence Query Language; a JPQL query is a
 valid HQL query, but not all HQL queries are valid JPQL queries. HQL is a language with its own syntax and grammar. It is
