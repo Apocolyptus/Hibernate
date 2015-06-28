@@ -23,7 +23,7 @@
 
 5) [The Hibernate Query Language] (5_The Hibernate Query Language.txt)
 
-  • [Example] (query.java)
+  • [Example] (query.sql)
 
 6) [Many-to-many] (6_Many-to-many.txt)
 
