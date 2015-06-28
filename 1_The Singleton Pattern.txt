@@ -2,3 +2,4 @@
 
 	The Singleton Pattern pulls from the Abstract Factory, Builder and Prototype patterns only in implementation. In this way, the abstract factory pattern “provides a way to encapsulate a group of individual factories that have a common theme without specifying their concrete classes.” 
  
+ 
