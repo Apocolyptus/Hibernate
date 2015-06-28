@@ -15,11 +15,11 @@
 
 3) [The Proxy Pattern] (3_The Proxy Pattern.txt)
 
-  • [Example] (proxyjava)
+  • [Example] (proxy.java)
 
 4) [The Factory method pattern] (4_The Factory method pattern.txt)
 
-  • [Example] (factoryjava)
+  • [Example] (factory.java)
 
 5) [The Hibernate Query Language] (5_The Hibernate Query Language.txt)
 
@@ -36,5 +36,3 @@
 8) [Bidirectional One-To-Many] (8_Bidirectional One-To-Many.txt)
 
   • [Example] (one.java)
-
-
