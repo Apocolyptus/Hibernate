@@ -1,1 +1,13 @@
+#Bi-Directional One to Many#
 
+The term “bidirectional” literally means “functioning in two directions”, which is the concept that we will apply in our
+relationships between two Java objects. When we have a bidirectional relationship between objects, it means that we are able to
+access Object A from Object B, and Object B from Object A.
+
+One critical thing to remember here is that there’s a difference between a reference from the One-to-Many side and the
+Many-to-One side.
+
+When you traverse from the “Many” side to the “One” side, you only need to make reference to one object, which is why the
+Employee class holds a single reference to an Employer class via the private Employer employer instance variable.
+
+However, when you traverse from the “One” to the “Many” side, you will need to hold a reference to MANY objects.
